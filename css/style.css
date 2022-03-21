@@ -1,0 +1,461 @@
+/* Import Font Awsome */
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+@font-face {
+    font-family: myFirstFont ;
+    src: url(../font/Sukar-black.ttf);
+  
+  }
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Medium;
+    src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-SemiBold;
+    src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* overflow: hidden!important; */
+}
+.row{
+    margin: 0px!important;
+}
+
+
+/* start website */
+/* header start */
+header .ads-img img{
+    width: 100%;
+    height: 100vh;
+}
+.ads-img{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+
+}
+/* header end */
+/* start khadmatna */
+.khadmatna{
+    padding-top: 100px;
+}
+.khadmatna .khadmatna-title{
+    font-size: 35px;
+    padding-bottom: 30px;
+    color: #12b7b1;
+    font-family: myFirstFont;
+}
+.hexa .hexa-4{
+    width: 220px;
+  height: 227px;
+  display: table;
+  background-image: url(../img/1111.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  }
+  .hexa .hexa-4 .hexa-4-1{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  }
+  .hexa .hexa-4 .hexa-4-1 img{
+    width: 63px;
+  }
+  .hexa .hexa-4 .hexa-4-1 h2{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #12b7b1;
+    font-family: myFirstFont;
+  }
+  .hexa  .hexa-4-p h2{
+  font-size: 26px;
+  color: #28324e;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: arabic;
+  }
+  .hexa .hexa-4-p p{
+  font-size: 16px;
+  color: #808aa6;
+  margin: 0;
+  
+  font-family:arabic;
+  }
+  .ul-li h1 {
+    font-size: 48px;
+      text-align: right;
+      font-family: arabic;
+      margin-top: 0;
+      margin-bottom: 15px;
+      background: #28324e;
+    
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  .ul-li p {
+    font-size: 24px;
+      color: #28324ed9;
+      margin-top: 0;
+      font-family: arabic;
+      margin-bottom: 20px;
+      padding-left: 20px;
+  }
+  .ul-li ul li{
+   
+      margin-bottom: 15px;
+      font-size: 19px;
+      color: #28324ebf;
+     
+  }
+  .ul-li ul li::before {
+    content: url("../img/prog-icon.png");
+    margin-left: 10px;
+  
+  }
+  /* khadmatna end */
+  /*   .khadmatna-social start */
+  .khadmatna-social{
+      padding-top: 100px;
+  }
+.khadmatna-social .khadmatna-social-title{
+    font-size: 35px;
+    padding-bottom: 70px;
+    color: #12b7b1;
+    font-family: myFirstFont;
+}
+.khadmatna-social img{
+    width: 50%;
+}
+.slider-item{
+    text-align: center;
+}
+    /*.khadmatna-social end */
+
+      /*   .khadmatna-amalna start */
+  .khadmatna-amalna{
+    padding-top: 100px;
+}
+.khadmatna-amalna .khadmatna-amalna-title{
+  font-size: 35px;
+  padding-bottom: 70px;
+  color: #12b7b1;
+  font-family: myFirstFont;
+}
+.khadmatna-amalna img{
+  width: 100%;
+}
+.slider-item{
+  text-align: center;
+}
+  /*.khadmatna-amalna end */
+
+  
+.card{
+    text-align: center;
+    
+    }
+    .end-box1 {
+         background-color: #12b7b1;
+            text-align: center;
+    
+          width: 100%;
+        height: 650px;
+       margin-top: 70px;
+           position: absolute;
+    }
+    
+    .end-box1 svg{
+           height: 126px;
+        width: 124px;
+        /* margin-bottom: 20px; */
+        margin-top: -29px;
+        margin-bottom: 22px;
+       
+    }
+    .end-box1 h4 {
+        text-align: center;
+        margin-top: 18px;
+        margin-bottom: 0px;
+        font-family: ysxc;
+        font-weight: 800;
+        font-style: normal;
+        color: #ffe9e0;
+        font-size:38px;
+        font-family: 'myFirstFont';
+    }
+    .end-box1 h3 {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 54px;
+        font-family: ysxc;
+        font-weight: 800;
+        font-style: normal;
+        color: #ffe9e0;
+        font-size: 38px;
+        font-family: 'myFirstFont';
+    }
+    .end-box1 input{
+              background-color: rgb(255 233 224);
+        border-radius: 44px;
+        border-width: 0px;
+        border-color: rgb(0,0,0);
+        font-family: ysxc;
+        font-weight: 700;
+        font-style: normal;
+          color: rgb(124 48 90);
+       font-size: 24px;
+        letter-spacing: 0px;
+              height: 67px;
+        width: 259px;
+        font-family: 'myFirstFont';
+    }
+    .end-box1 h6{
+        font-family: ysxc;
+        font-weight: 500;
+        font-style: normal;
+        color: rgba(255, 233, 224, 0.498039);
+            margin-top: 54px;
+        font-size: 18;
+        font-family: 'myFirstFont';
+    }
+    .end-box1 h5{
+            font-family: ysxc;
+        font-weight: 500;
+        font-style: normal;
+        color: rgba(255, 233, 224, 0.498039);
+        font-family: 'myFirstFont';
+            margin-bottom: 54px;
+    }
+    
+    /*footer{
+        background-image: url("../img/back2.webp");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }*/
+    
+    
+    /* end end-box ar*/
+    
+    
+    .svg{
+            margin-top: 17px;
+            margin-left: 440px;
+    }
+    
+    .svg svg {
+        height: 50px;
+        width: 30px;
+        fill: #ffe9e0;
+        cursor: pointer;
+    }
+    .svg1{
+            margin-top: 17px;
+                margin-right: 445px;
+    }
+    
+    .svg1 svg {
+        height: 50px;
+        width: 30px;
+        fill: #ffe9e0;
+        cursor: pointer;
+    }
+    
+    
+    
+    
+    
+    
+    .form12 .input1{
+        font-size: 16px;
+        height: 51px;
+       width: 558px;
+    
+        border-radius: 9px;
+        border: #843862;
+        padding-left: 11px;
+        font-family: 'myFirstFont';
+        font-weight: bold;
+               color: #823660;
+            background: #ffe9e0;
+        margin-bottom: 19px;
+    
+    
+    }
+    .form12{
+           
+    }
+    .form12 .input2{
+    
+        font-size: 18px;
+        height: 48px;
+        width: 166px;
+        border-radius: 21px;
+        border: #843862;
+        padding-left: 0px;
+        font-family: 'myFirstFont';
+        font-weight: bold;
+        color: #843862;
+        background: #ffe9e0;
+        margin-bottom: 19px;
+    }
+    .form12 .Textarea1{
+    
+        height: 136px;
+       width: 558px;
+    
+        border-radius: 9px;
+        border: #843862;
+        padding-left: 12px;
+        font-family: 'myFirstFont';
+          font-weight: bold;
+              color: #823660;
+            background: #ffe9e0;
+        margin-bottom: 19px;
+        padding-top: 8px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .form123 .input1{
+        font-size: 16px;
+        height: 51px;
+       width: 558px;
+    
+        border-radius: 9px;
+        border: #843862;
+        padding-right: 11px;
+        font-family: 'myFirstFont';
+        font-weight: bold;
+               color: #12b7b1;
+            background: #ffe9e0;
+        margin-bottom: 19px;
+    
+    
+    }
+    .form123{
+           
+    }
+    .form123 .input2{
+    
+        font-size: 18px;
+        height: 48px;
+        width: 166px;
+        border-radius: 21px;
+        border: #843862;
+        padding-left: 0px;
+        font-family: 'myFirstFont';
+        font-weight: bold;
+        color: #12b7b1;
+        background: #ffe9e0;
+        margin-bottom: 19px;
+    }
+    .form123 .Textarea1{
+    
+        height: 136px;
+       width: 558px;
+    
+        border-radius: 9px;
+        border: #843862;
+        padding-right: 11px;
+        font-family: 'myFirstFont';
+          font-weight: bold;
+                color: #12b7b1;
+            background: #ffe9e0;
+        margin-bottom: 19px;
+        padding-top: 8px;
+    }
+    .slids img {
+        width: 312px;
+    
+    }
+    .slids {
+            padding: 50px;
+    }
+    .slids2 img {
+        width: 312px;
+    
+    }
+    .slids2 {
+            padding: 50px;
+    }
+    input:focus{
+        outline: none;
+        }
+        textarea:focus{
+            outline: none;
+        }
+.baqat{
+    padding-top: 50px;
+    background-color: #12b7b1;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.baqat .baqat-title{
+    font-size: 35px;
+    padding-bottom: 30px;
+    color: white;
+    font-family: myFirstFont; 
+}
+    
+.baqat button{
+    border: none;
+    background: #6BD478;
+    width: 163px;
+    height: 42px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}   
+.baqat button a{
+ color: white;
+ font-size: 18px;
+ font-family: myFirstFont;
+}   
+.baqat button a:hover{
+text-decoration: none;
+   } 
+   .baqat button a i {
+    padding-left: 10px;
+    font-size: 21px;
+   }
+   .baqat h6{
+    font-size: 18px;
+    padding-top: 17px;
+    color: #12bbb4;
+    font-family: myFirstFont;
+}
+
+.WhatsApp{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: row-reverse;
+    position: fixed;
+    z-index: 3;
+    /* float: right; */
+    top: 550px;
+    left: 1;
+    right: 15px;
+}
